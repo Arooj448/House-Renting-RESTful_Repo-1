@@ -13,7 +13,7 @@ namespace WebApplicationWebApi_Arooj.Controllers
 
         public HousesController(HouseRentingDbContext context)
         {
-            _context = context;
+            _context = context;  //constructor
         }
 
         [HttpGet]
